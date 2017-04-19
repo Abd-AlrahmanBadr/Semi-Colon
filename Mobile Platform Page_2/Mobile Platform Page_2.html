@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="description" content="Mobile Platform Page_2"/>
+        <title>Mobile Platform Page_2</title>
+        <link rel="stylesheet" href="Mobile Platform Page_2.css" />
+        <script src="../JQuery.js"></script>
+        <script src="Mobile Platform Page_2.js"></script>
+    </head>
+    <body>
+        <div class="Header">
+            <a href="#" id="Menu"><img src="Menu.png" alt="Menu" /></a>
+            <a href="#" id="Logo"><img src="../Semi-Colon.png" alt="Semi-Colon Logo" /></a>
+        </div>
+        
+        <div style="clear: both;"></div>
+        
+        <aside class="Nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li id="Category"><a href="#">Categories</a></li>
+                    <ul id="CategoryList">
+                        <li><a href="#" />Pc Programing</a></li>
+                        <li><a href="#" />Web Design</a></li>
+                        <li><a href="#" />Artificial Intelegence</a></li>
+                        <li><a href="#" />Robotics</a></li>
+                        <li><a href="#" />Mobile Platforms</a></li>
+                    </ul>
+                <li id="Acc"><a href="#">Account</a></li>
+                    <ul id="AccList">
+                        <li><a href="#">Manage Your Account</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                <li id="Ser"><a href="#">Services</a></li>
+                    <ul id="SerList">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Semi-Colon Info</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Carrer</a></li>
+                        <li><a href="#">Privecy</a></li>
+                    </ul>
+                <li id="Re"><a href="#">Reach Us</a></li>
+                    <ul id="ReList">
+                        <li><a href="#"><img src="../Facebook.png" alt="Facebook"/></a></li>
+                        <li><a href="#"><img src="../Twitter.png" alt="Twitter"/></a></li>
+                        <li><a href="#"><img src="../Instagram.png" alt="Instegram"/></a></li>
+                        <li><a href="#"><img src="../Youtube.png" alt="Youtube"/></a></li>
+                        <li><a href="#"><img src="../Google+.png" alt="Youtube"/></a></li>
+                    </ul>
+            </ul>
+        </aside>
+        
+        <div style="clear: both;"><br /></div>
+        
+        <div class="Body">
+            <section class="Main">
+                <img src="iOS.png" alt="iOS"/>
+                <p>
+                    Apple's iPhone OS was originally developed for use on its iPhone devices.
+                    Now, the mobile operating system is referred to as iOS and is supported on a number of Apple devices including the iPhone,
+                    iPad, iPad 2 and iPod Touch. The iOS mobile operating system is available only on Apple's own manufactured devices as the company
+                    does not license the OS for third-party hardware. Apple iOS is derived from Apple's Mac OS X operating system.
+                </p>
+                
+                <p>
+                    iOS (previously known as iPhone OS) is from Apple Inc. It has the second largest installed base worldwide on smartphones,
+                    but the largest profits, due to aggressive price competition between Android-based manufacturers.
+                    It is closed source and proprietary and built on open source Darwin core OS. The Apple iPhone,
+                    iPod Touch, iPad and second-generation Apple TV all use iOS, which is derived from OS X.
+                    Native third party applications were not officially supported until the release of iOS 2.0 on July 11, 2008. Before this,
+                    "jailbreaking" allowed third party applications to be installed, and this method is still available.
+                    Currently all iOS devices are developed by Apple and manufactured by Foxconn or another of Apple's partners.
+                    As of 2014, the global market share of iOS was 15.4%.
+                    <ol>
+                        <h2>iOS version list:</h2>
+                        <li>iPhone OS 1.x</li>
+                        <li>iPhone OS 2.x</li>
+                        <li>iPhone OS 3.x</li>
+                        <li>iOS 4.x</li>
+                        <li>iOS 4.x</li>
+                        <li>iOS 5.x</li>
+                        <li>iOS 6.x</li>
+                        <li>iOS 7.x (Major UI revamp)</li>
+                        <li>iOS 8.x</li>
+                        <li>iOS 9.x</li>
+                    </ol>
+                </p>
+                <img src="Versions.jpg" alt="Versions Pic" style="height: 90%;width: 90%;"/>
+            </section>
+            
+            <hr style="margin: 2%;">
+                
+            <section class="Main">  
+                <h2>Kernal Of iOS</h2>
+                <p>
+                    The kernel of iOS is the XNU kernel.
+                    Pre-2.0, it was vulnerable to the Ramdisk Hack and may still be, but iBoot doesn't allow boot-args to be passed anymore.
+                    It is mapped to memory at 0x80000000, forcing a 2/2GB address separation, similar to Windows 32-bit model.
+                    On older iOS versions the separation was 3/1 (mapping the kernel at 0xC0000000), closer to the Linux model.
+                    Note, that this is NOT like 32-bit OS X, wherein the kernel resides in its own address space, but more like OS X 64-bit,
+                    wherein CR3 is shared (albeit an address space larger by several orders of magnitude). See the appropriate section.
+                </p>
+                
+                <h2>The iOS Architecture Is Layered</h2>
+                <p>
+                    At the highest level, iOS acts as an intermediary between the underlying hardware and the apps you create.
+                    Apps do not talk to the underlying hardware directly.
+                    Instead, they communicate with the hardware through a set of well-defined system interfaces.
+                    These interfaces make it easy to write apps that work consistently on devices having different hardware capabilities.
+                    The implementation of iOS technologies can be viewed as a set of layers, which are shown in pic.
+                    <img src="The iOS Architecture.png" alt="The iOS Architecture" />
+                    Lower layers contain fundamental services and technologies.
+                    Higher-level layers build upon the lower layers and provide more sophisticated services and technologies.
+                </p>
+                
+                <h2>Development</h2>
+                <p>
+                    Authorized third-party native applications are available through Apple's App Store for devices running iPhone OS 2.0 and higher.
+                    Native apps must be written in Swift or Objective-C (with some elements optionally in C or C++) and compiled specifically for iOS
+                    and the 64-bit ARM architecture or previous 32-bit one (typically using Xcode). Third-party attempts have been made to allow apps written
+                    with Java, .NET, and Adobe Flash to run on iOS devices, but due to Apple restrictions these are generally not available in the iOS App Store.
+                </p>
+                
+                <h2>What programming language is iOS written in?</h2>
+                <p>
+                    The mach kernel would be written in C, with Assembler thrown in to boot.
+                    Above that layer, the device drivers be written in same language, C, as well that interacts with the kernel, think graphics, sounds etc.
+                    Above that level, the runtime libraries would be mixture of GNU libraries, mostly C, C++.
+                    Then the entire framework would be written in Objective C/C++ wrapping around the GNU libraries at lower level.
+                    This would equally apply to the desktop OS/X as well, as they share similar structures of the aforementioned software.
+                </p>
+                <h2>Small Video about languages C,C++ & Objective-C</h2>
+                <video controls preload="auto">
+                    <source src="Should I Learn C or C++ Before Objective C.mp4" type="video/mp4"/>
+                    your browser does not support this video technology
+                </video>
+            </section>
+            
+            <hr style="margin: 2%;">
+            
+            <section class="Main">
+                <h1>Let's talk about these languages</h1>
+                <img src="C_Logo.png" style="width: 20%;height: 20%; float: right;" alt="C_Logo"/>
+                <h2>C</h2>
+                <h3>History</h3>
+                <p>
+                    The origin of C is closely tied to the development of the Unix operating system,
+                    originally implemented in assembly language on a PDP-7 by Ritchie and Thompson, incorporating several ideas from colleagues.
+                    Eventually, they decided to port the operating system to a PDP-11. The original PDP-11 version of Unix was developed in assembly language.
+                    The developers were considering rewriting the system using the B language, Thompson's simplified version of BCPL.
+                    However B's inability to take advantage of some of the PDP-11's features, notably byte addressability, led to C.
+                    
+                    The development of C started in 1972 on the PDP-11 Unix system[10] and first appeared in Version 2 Unix.
+                    The language was not initially designed with portability in mind, but soon ran on different platforms as well
+                    : a compiler for the Honeywell 6000 was written within the first year of C's history, while an IBM System/370 port followed soon.
+                    The name of C simply continued the alphabetic order started by B.[12]
+                    
+                    Also in 1972, a large part of Unix was rewritten in C.[13] By 1973, with the addition of struct types,
+                    the C language had become powerful enough that most of the Unix's kernel was now in C.
+                    
+                    Unix was one of the first operating system kernels implemented in a language other than assembly.
+                    (Earlier instances include the Multics system (written in PL/I), and MCP (Master Control Program) for the Burroughs B5000 written in ALGOL in 1961.)
+                    Circa 1977, Ritchie and Stephen C. Johnson made further changes to the language to facilitate portability of the Unix operating system.
+                    Johnson's Portable C Compiler served as the basis for several implementations of C on new platforms.
+                </p>
+                <h3>Libraries</h3>
+                <p>
+                    The C programming language uses libraries as its primary method of extension. In C,
+                    a library is a set of functions contained within a single "archive" file. Each library typically has a header file,
+                    which contains the prototypes of the functions contained within the library that may be used by a program,
+                    and declarations of special data types and macro symbols used with these functions. In order for a program to use a library,
+                    it must include the library's header file, and the library must be linked with the program, which in many cases requires compiler flags
+                    (e.g., -lm, shorthand for "math library").
+
+                    The most common C library is the C standard library, which is specified by the ISO and ANSI C standards and
+                    comes with every C implementation. (Implementations which target limited environments such as embedded systems may provide
+                    only a subset of the standard library.) This library supports stream input and output, memory allocation, mathematics, character strings
+                    , and time values. Several separate standard headers (for example, stdio.h) specify the interfaces for these and other standard library facilities.
+                    
+                    Another common set of C library functions are those used by applications specifically targeted for Unix and Unix-like systems,
+                    especially functions which provide an interface to the kernel. These functions are detailed in various standards such as POSIX
+                    and the Single UNIX Specification.
+                    
+                    Since many programs have been written in C, there are a wide variety of other libraries available. Libraries are often written in C
+                    because C compilers generate efficient object code; programmers then create interfaces to the library so that the routines can be used
+                    from higher-level languages like Java, Perl, and Python.
+                </p>
+                <h3>Critism</h3>
+                <p>
+                    Although mimicked by many languages because of its widespread familiarity, C's syntax has often been criticized.
+                    For example, Kernighan and Ritchie say in the Introduction of The C Programming Language, "C, like any other language,
+                    has its blemishes. Some of the operators have the wrong precedence; some parts of the syntax could be better."
+                    <br />
+                    Some specific problems worth noting are:<br />
+                
+                    Not checking number and types of arguments prior to C99 when the function declaration has an empty parameter list.
+                    [This provides backward compatibility with K&R C, which lacked prototypes.]
+                    Some questionable choices of operator precedence, as mentioned by Kernighan and Ritchie above, such as ==
+                    binding more tightly than & and | in expressions like x & 1 == 0, which would need to be written [x & 1] == 0 to be properly evaluated.
+                    The use of the = operator, used in mathematics for equality, to indicate assignment, following the precedent of Fortran and PL/I
+                    , but unlike ALGOL and its derivatives. Ritchie made this syntax design decision consciously, based primarily on the argument that assignment occurs more often than comparison.
+                    Similarity of the assignment and equality operators [= and ==], making it easy to accidentally substitute one for the other.
+                    In many cases, each may be used in the context of the other without a compilation error (although some compilers produce warnings).
+                    For example, the conditional expression in if [a=b] is true if a is not zero after the assignment.
+                    A lack of infix operators for complex objects, particularly for string operations, making programs which rely heavily on these operations
+                    [implemented as functions instead] somewhat difficult to read.
+                    A declaration syntax that some find unintuitive, particularly for function pointers. [Ritchie's idea was to declare identifiers in contexts
+                    resembling their use: "declaration reflects use".]
+                    C's method of terminating strings with a NUL has been said by some to have created extra programming costs because it imposes extra compiler,
+                    performance and security costs.
+                </p>
+            </section>
+            
+            <section class="Main">
+                <img src="C++_Logo.png" style="width: 20%;height: 20%; float: right;" alt="C++_Logo"/>
+                <h2>C++</h2>
+                <h3>History</h3>
+                <p>
+                    In 1979, Bjarne Stroustrup, a Danish computer scientist, began work on the predecessor to C++, "C with Classes".
+                    The motivation for creating a new language originated from Stroustrup's experience in programming for his Ph.D. thesis.
+                    Stroustrup found that Simula had features that were very helpful for large software development,
+                    but the language was too slow for practical use, while BCPL was fast but too low-level to be suitable for large software development.
+                    When Stroustrup started working in AT&T Bell Labs, he had the problem of analyzing the UNIX kernel with respect to distributed computing.
+                    Remembering his Ph.D. experience, Stroustrup set out to enhance the C language with Simula-like features.
+                    C was chosen because it was general-purpose, fast, portable and widely used. As well as C and Simula's influences,
+                    other languages also influenced C++, including ALGOL 68, Ada, CLU and ML.
+                    Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, including classes, derived classes, strong typing, inlining and default arguments.[9]
+
+                    In 1983, C with Classes was renamed to C++ ("++" being the increment operator in C), adding new features that included virtual functions,
+                    function name and operator overloading, references, constants, type-safe free-store memory allocation (new/delete), improved type checking,
+                    and BCPL style single-line comments with two forward slashes (//). Furthermore, it included the development of a standalone compiler for C++,
+                    Cfront.
+                    
+                    In 1985, the first edition of The C++ Programming Language was released, which became the definitive reference for the language,
+                    as there was not yet an official standard. The first commercial implementation of C++ was released in October of the same year.
+                    
+                    In 1989, C++ 2.0 was released, followed by the updated second edition of The C++ Programming Language in 1991.
+                    New features in 2.0 included multiple inheritance, abstract classes, static member functions, const member functions,
+                    and protected members. In 1990, The Annotated C++ Reference Manual was published. This work became the basis for the future standard.
+                    Later feature additions included templates, exceptions, namespaces, new casts, and a boolean type.
+
+                    After the 2.0 update, C++ evolved relatively slowly until, in 2011, the C++11 standard was released, adding numerous new features,
+                    enlarging the standard library further, and providing more facilities to C++ programmers. After a minor C++14 update, released in December 2014,
+                    various new additions are planned for 2017.
+                </p>
+                <h3>Language</h3>
+                <p>
+                    The C++ language has two main components: a direct mapping of hardware features provided primarily by the C subset,
+                    and zero-overhead abstractions based on those mappings. Stroustrup describes C++ as "a light-weight abstraction programming language
+                    [designed] for building and using efficient and elegant abstractions";and "offering both hardware access and abstraction is the basis
+                    of C++. Doing it efficiently is what distinguishes it from other languages".
+                </p>
+                <h3>Standard library</h3>
+                <p>
+                    The C++ standard consists of two parts: the core language and the standard library.
+                    C++ programmers expect the latter on every major implementation of C++; it includes vectors, lists, maps,
+                    algorithms (find, for_each, binary_search, random_shuffle, etc.), sets, queues, stacks, arrays, tuples,
+                    input/output facilities (iostream, for reading from and writing to the console and files), smart pointers for automatic memory management,
+                    regular expression support, multi-threading library, atomics support (allowing a variable to be read or written to by at most one thread
+                    at a time without any external synchronisation), time utilities (measurement, getting current time, etc.), a system for converting error
+                    reporting that doesn't use C++ exceptions into C++ exceptions, a random number generator and a slightly modified version of the C standard
+                    library (to make it comply with the C++ type system).
+
+                    A large part of the C++ library is based on the Standard Template Library (STL).
+                    Useful tools provided by the STL include containers as the collections of objects (such as vectors and lists),
+                    iterators that provide array-like access to containers, and algorithms that perform operations such as searching and sorting.
+                    
+                    Furthermore, (multi)maps (associative arrays) and (multi)sets are provided, all of which export compatible interfaces.
+                    Therefore, using templates it is possible to write generic algorithms that work with any container or on any sequence defined by iterators.
+                    As in C, the features of the library are accessed by using the #include directive to include a standard header.
+                    C++ provides 105 standard headers, of which 27 are deprecated.
+                    
+                    The standard incorporates the STL that was originally designed by Alexander Stepanov, who experimented with generic algorithms and
+                    containers for many years. When he started with C++, he finally found a language where it was possible to create generic algorithms
+                    (e.g., STL sort) that perform even better than, for example, the C standard library qsort, thanks to C++ features like using inlining
+                    and compile-time binding instead of function pointers. The standard does not refer to it as "STL", as it is merely a part of the standard
+                    library, but the term is still widely used to distinguish it from the rest of the standard library (input/output streams,
+                    internationalization, diagnostics, the C library subset, etc.).
+
+                    Most C++ compilers, and all major ones, provide a standards conforming implementation of the C++ standard library.
+                </p>
+                <h3>Criticism</h3>
+                <p>
+                    Despite its widespread adoption, many programmers have criticized the C++ language, including Linus Torvalds, Richard Stallman,
+                    and Ken Thompson.Issues include a lack of reflection or garbage collection, slow compilation times, and verbose error messages
+                    , particularly from template metaprogramming. Because C++ introduces an additional memory footprint on programs due to internally
+                    generated vtables and constructors,[citation needed] programmers such as Torvalds prefer C over C++ for low-level, performance-critical
+                    and portable system software.
+                    To avoid the problems that exist in C++, and to increase productivity,some people suggest alternative languages newer than C++,
+                    such as D, Go, Rust and Vala.
+                </p>
+            </section>
+            
+            <section class="Main">
+                <img src="Objective_C_Logo.png" style="width: 20%;height: 20%; float: right;" alt="Objective_C_Logo"/>
+                <h2>Objective C</h2>
+                <h3>History</h3>
+                <p>
+                    Objective-C was created primarily by Brad Cox and Tom Love in the early 1980s at their company Stepstone.
+                    Both had been introduced to Smalltalk while at ITT Corporation's Programming Technology Center in 1981.
+                    The earliest work on Objective-C traces back to around that time.Cox was intrigued by problems of true reusability in
+                    software design and programming. He realized that a language like Smalltalk would be invaluable in building development environments
+                    for system developers at ITT. However, he and Tom Love also recognized that backward compatibility with C was critically important in
+                    ITT's telecom engineering milieu.
+
+                    Cox began writing a pre-processor for C to add some of the abilities of Smalltalk.
+                    He soon had a working implementation of an object-oriented extension to the C language, which he called "OOPC" for Object-Oriented
+                    Pre-Compiler. Love was hired by Schlumberger Research in 1982 and had the opportunity to acquire the first commercial copy of
+                    Smalltalk-80, which further influenced the development of their brainchild.
+                    
+                    In order to demonstrate that real progress could be made, Cox showed that making interchangeable software components really needed
+                    only a few practical changes to existing tools. Specifically, they needed to support objects in a flexible manner,
+                    come supplied with a usable set of libraries, and allow for the code (and any resources needed by the code) to be bundled into
+                    one cross-platform format.
+                    
+                    Love and Cox eventually formed a new venture, Productivity Products International (PPI), to commercialize their product,
+                    which coupled an Objective-C compiler with class libraries. In 1986, Cox published the main description of Objective-C in its original
+                    form in the book Object-Oriented Programming, An Evolutionary Approach. Although he was careful to point out that there is more to the
+                    problem of reusability than just the language, Objective-C often found itself compared feature for feature with other languages.
+                </p>
+                <h3>Library use</h3>
+                <p>
+                    Objective-C today is often used in tandem with a fixed library of standard objects (often known as a "kit" or "framework"),
+                    such as Cocoa, GNUstep or ObjFW. These libraries often come with the operating system: the GNUstep libraries often come with
+                    GNU/Linux based distributions and Cocoa comes with OS X. The programmer is not forced to inherit functionality from the existing
+                    base class (NSObject / OFObject). Objective-C allows for the declaration of new root classes that do not inherit any existing functionality.
+                    Originally, Objective-C based programming environments typically offered an Object class as the base class from which almost all other
+                    classes inherited. With the introduction of OpenStep, NeXT created a new base class named NSObject, which offered additional features over
+                    Object (an emphasis on using object references and reference counting instead of raw pointers, for example). Almost all classes in Cocoa
+                    inherit from NSObject.
+
+                    Not only did the renaming serve to differentiate the new default behavior of classes within the OpenStep API,
+                    but it allowed code that used Object—the original base class used on NeXTSTEP (and, more or less, other Objective-C class libraries)—to
+                    co-exist in the same runtime with code that used NSObject (with some limitations). The introduction of the two letter prefix also became
+                    a simplistic form of namespaces, which Objective-C lacks. Using a prefix to create an informal packaging identifier became an informal
+                    coding standard in the Objective-C community, and continues to this day.
+                    
+                    More recently, package managers have started appearing, such as CocoaPods, which aims to be both a package manager and
+                    a repository of packages. A lot of open-source Objective-C code that was written in the last few years can now be installed using CocoaPods.
+                </p>
+                <h3>Critism</h3>
+                <p>
+                    A common criticism is that Objective-C does not have language support for namespaces.
+                    Instead, programmers are forced to add prefixes to their class names, which are traditionally shorter
+                    than namespace names and thus more prone to collisions. As of 2007, all Mac OS X classes and functions in the Cocoa
+                    programming environment are prefixed with "NS" (e.g. NSObject, NSButton) to identify them as belonging to the Mac OS X or
+                    iOS core; the "NS" derives from the names of the classes as defined during the development of NeXTSTEP.
+                </p>
+                
+                <h3>Why does apple use Objective-C ??</h3>
+                <video controls preload="auto">
+                    <source src="Why Does Apple use Objective-C.mp4" type="video/mp4"/>
+                    your browser does not support this video technology
+                </video>
+                
+                <h3>Why Objective C is Better than C++ ??</h3>
+                <video controls preload="auto">
+                    <source src="Why Objective C is Better than C++.mp4" type="video/mp4"/>
+                    your browser does not support this video technology
+                </video>
+            </section>
+            
+            <hr style="margin: 2%;">
+            
+            <section class="Main">
+                <h2>Sources</h2>
+                <ul>
+                    <li>
+                        <a href="https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html" target="_blank">
+                        https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.theiphonewiki.com/wiki/Kernel" target="_blank">
+                            https://www.theiphonewiki.com/wiki/Kernel
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/questions/33328905/what-programming-language-is-ios-written-in" target="_blank">
+                            https://stackoverflow.com/questions/33328905/what-programming-language-is-ios-written-in
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
+                            https://en.wikipedia.org/wiki/C%2B%2B
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/C_(programming_language)#Notes" target="_blank">
+                            https://en.wikipedia.org/wiki/C_(programming_language)#Notes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Objective-C#Library_use" target="_blank">
+                            https://en.wikipedia.org/wiki/Objective-C#Library_use
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+        <div style="clear: both;"><br /></div>
+        
+        <footer>
+            <section class="Lang">
+                <a href="#"><img src="../Arabic.png" alt="Arabic" /></a>
+                <a href="#"><img src="../English.png" alt="English"/></a>
+            </section>
+            <p>Copyright &copy; 2016 Semi-Colon Inc. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,184 @@
+*
+{
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+body
+{
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+            /* Start Body */
+        /* Start Header */
+.Header
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#Menu img
+{
+    width: 4%;
+    height: 3%;
+    float: left;
+    margin: 1%;
+    padding-bottom: 0%; 
+}
+#Logo img
+{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 38%;
+}
+        /* End Header */
+        /* Start Nav aSide */
+.Nav
+{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    width: 15%;
+}
+.Nav ul
+{
+    list-style-type: none;
+}
+.Nav ul li
+{
+    padding: 10% 0%;
+    font-size: 20px;
+}
+.Nav ul li a
+{
+    color: white;
+    width: 150%;
+}
+
+#CategoryList,#AccList,#SerList,#ReList
+{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    position: absolute;
+    left: 100.5%; 
+}
+#CategoryList
+{
+    width: 100%;
+    top: 20%;
+}
+#AccList
+{
+    width: 100%;
+    top: 39%
+}
+#SerList
+{
+    width: 100%;
+    top: 60%;
+}
+#ReList
+{
+    width: 30%;
+    top: 0%;
+}
+#ReList img
+{
+    width: 62.5%;
+    height: 62.5%;
+}
+        /* End Nav aSide */
+        /* Start Inside */
+.Body
+{
+    padding: 1%;
+}
+.Main
+{
+    background-color: rgba(255,255,255,0.5);    
+}
+.Main img
+{
+    padding: 2%;
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Main video
+{
+    padding: 2%;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 22%;
+}
+.Main p
+{
+    text-indent: 30px;
+    font-size: 25px;
+    line-height: 35px;
+    padding: 2%;
+}
+.Main h1
+{
+    padding: 2%;
+    text-align: center;
+}
+.Main h2
+{
+    padding: 1%;
+    text-indent: 40px;
+    text-decoration: underline;
+}
+.Main h3
+{
+    padding: 1%;
+    text-indent: 50px;
+}
+.Main ol
+{
+    margin: 2%;
+}
+.Main ol li
+{
+    padding: 1%;
+    font-size: 25px;
+}
+.Main ul li
+{
+    padding: 1%;
+    font-size: 20px;
+}
+        /* End Inside */
+        /* Start Footer */
+footer
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Lang
+{
+    display: inline;
+}
+.Lang a img
+{
+    width: 2%;
+    height: 2%;
+}
+footer p
+{
+    color: white;
+    padding-top: 0.5%;
+    position: relative;
+    float: right;
+}
+        /* End Footer */
+            /* End Body */

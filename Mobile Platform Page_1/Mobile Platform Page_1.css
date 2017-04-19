@@ -1,0 +1,248 @@
+*
+{
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+body
+{
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+            /* Start Body */
+        /* Start Header */
+.Header
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#Menu img
+{
+    width: 4%;
+    height: 3%;
+    float: left;
+    margin: 1%;
+    padding-bottom: 0%; 
+}
+#Logo img
+{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 38%;
+}
+        /* End Header */
+        /* Start Nav aSide */
+.Nav
+{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    width: 15%;
+}
+.Nav ul
+{
+    list-style-type: none;
+}
+.Nav ul li
+{
+    padding: 10% 0%;
+    font-size: 20px;
+}
+.Nav ul li a
+{
+    color: white;
+    width: 150%;
+}
+
+#CategoryList,#AccList,#SerList,#ReList
+{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    position: absolute;
+    left: 100.5%; 
+}
+#CategoryList
+{
+    width: 100%;
+    top: 20%;
+}
+#AccList
+{
+    width: 100%;
+    top: 39%
+}
+#SerList
+{
+    width: 100%;
+    top: 60%;
+}
+#ReList
+{
+    width: 30%;
+    top: 0%;
+}
+#ReList img
+{
+    width: 62.5%;
+    height: 62.5%;
+}
+        /* End Nav aSide */
+        /* Start Inside */
+.Body
+{
+    margin: auto;
+}
+.Intro:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("Intro Background.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    opacity: 0.8;
+    z-index: -1;
+}
+.Intro
+{
+    padding: 1%;
+    color: black;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.Intro ul
+{
+    padding: 1%;
+}
+.Intro ul li
+{
+    padding: 1%;
+}
+
+.Intro h2
+{
+    padding: 1%;
+}
+.Intro ul li a
+{
+    text-decoration: underline;
+}
+.Intro p
+{
+    text-indent: 30px;
+    line-height: 35px;
+    padding: 2%;
+    font-size: 20px;
+}
+.Intro h3
+{
+    padding: 1%;
+}
+.Intro video
+{
+    width: 100%;
+    height: 100%;
+}
+.Categories p
+{
+    text-indent: 30px;
+    font-size: 20px;
+    padding: 3%;
+    color: white;
+}
+.Categories p a
+{
+    text-decoration: underline;
+    padding: 1%;
+}
+.Categories h1
+{
+    font-size: 60px;
+    padding: 7% 0% 0% 0%;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.Category_Right,.Category_Left
+{
+    height: 400px;
+}
+.Category_Right div.Category_Left div
+{
+    display: inline;
+}
+.Category_Right img,.Category_Left img
+{
+    height: 400px;
+    width: 30%;
+}
+.Category_Right img
+{
+    float: right;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    padding-left: 2%;
+}
+.Category_Left img
+{
+    float: left;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-right: 2%;
+}
+.Sources
+{
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.Sources ul
+{
+    padding: 2%;
+}
+.Sources ul li
+{
+    padding: 1%;
+}
+.Sources ul li a
+{
+    font-size: 20px;
+    color: white;
+}
+        /* End Inside */
+        /* Start Footer */
+footer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.Lang
+{
+    display: inline;
+}
+.Lang a img
+{
+    width: 2%;
+    height: 2%;
+}
+footer p
+{
+    color: white;
+    padding-top: 0.5%;
+    position: relative;
+    float: right;
+}
+        /* End Footer */
+            /* End Body */
